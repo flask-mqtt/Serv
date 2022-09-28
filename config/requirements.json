@@ -1,0 +1,52 @@
+{
+    "requirements": [
+      {
+        "name": "flask",
+        "version": "release",
+        "?": "核心库不能删除"
+      },
+      {
+        "name": "flask-cors",
+        "version": "release",
+        "?": "核心库不能删除"
+      },
+      {
+        "name": "flask-mqtt",
+        "version": "release",
+        "?": "核心库不能删除"
+      },
+      {
+        "name": "numpy",
+        "version": "release",
+        "?": "核心库不能删除"
+      }, 
+      {
+        "name": "requests",
+        "version": "release",
+        "?": "核心库不能删除"
+      },
+      {
+        "name": "pyjwt",
+        "version": "release",
+        "?": "核心库不能删除 -> 用于与前台UI 进行加密传输"
+      },
+      {
+        "name": "lxml",
+        "version": "release",
+        "?": "核心库不能删除 -> 用于使用xpath件提取HTML元素"
+      },
+      {
+        "name": "wmi",
+        "version": "release"
+      },
+      {
+        "name": "pypiwin32",
+        "version": "release"
+      },
+      {
+        "name": "selenium",
+        "version": "release",
+        "?": "核心库不能删除 -> 用于浏览器模拟"
+      }
+    ]
+}
