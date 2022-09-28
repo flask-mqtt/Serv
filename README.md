@@ -23,6 +23,12 @@
  x:\> run 或 run.bat
 ```
 - 运行后窗口隐藏的可通过任务管理器进行杀死进程关闭服务
+## 开机启动
+- win+r键 复制下面路径 并打开
+```
+%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+- 把serv路径下的run.bat创建快捷方式，放在上述打开路路径里面即可。
 ## 初次运行 run
 - 为了不影响本机实体环境，当第一次运行run时 会在serv目录下自动创建_venv虚拟环境文件夹，该文件夹是虚拟环境
 - 第一次run时在安装完包后会出现一个异常，程序自动重启因为这个包安装完需要重启一下忽略即可。
